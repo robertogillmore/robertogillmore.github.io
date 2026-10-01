@@ -1,3 +1,10 @@
-url: "https://robertogillmore.github.io"
-baseurl: ""
-repository: "robertogillmore/robertogillmore.github.io"
+# Site Settings
+locale                   : "en-US"
+title                    : "Roberto Gillmore"
+title_separator          : "-"
+name                     : &name "Roberto Gillmore"
+description              : &description "Senior Economist | Central Bank of Chile"
+url                      : "https://robertogillmore.github.io"
+baseurl                  : ""
+repository               : "robertogillmore/robertogillmore.github.io"
+teaser                   : null
