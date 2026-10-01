@@ -2,9 +2,62 @@
 locale                   : "en-US"
 title                    : "Roberto Gillmore"
 title_separator          : "-"
-name                     : &name "Roberto Gillmore"
-description              : &description "Senior Economist | Central Bank of Chile"
+name                     : "Roberto Gillmore"
+description              : "Senior Economist | Central Bank of Chile"
 url                      : "https://robertogillmore.github.io"
 baseurl                  : ""
 repository               : "robertogillmore/robertogillmore.github.io"
-teaser                   : null
+
+# Site Author
+author:
+  name             : "Roberto Gillmore"
+  avatar           : "profile.png"
+  bio              : "Senior Economist at Central Bank of Chile"
+  location         : "Santiago, Chile"
+  email            : "roberto.gillmore@gmail.com"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - build.sh
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - Rakefile
+  - README
+  - tmp
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
