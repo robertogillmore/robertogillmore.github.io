@@ -1,36 +1,52 @@
 ---
-layout: archive
-title: "Publications"
-permalink: /publications/
+layout: single
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+## Working Papers
 
-{% include base_path %}
+* **Nutritious School Meals and Educational Outcomes**  
+  *(R&R at Journal of Development Economics)*, with Carmen Quezada — [[Draft PDF](/files/Nutritious_School_Meals.pdf)]
+* **Mobility Restrictions and Reported Crime: Evidence from Staggered Lockdowns in Chile**  
+  *(Under review)*, with Nicolás Rivera — [[Draft PDF](/files/Mobility_Restrictions_Crime.pdf)]
+* **Anatomy of the Investment Network in a Commodity-Dependent Economy**  
+  *with Rodrigo Heresi, David Kohn, Dagoberto Quevedo, and Nicolás Rivera* — [[Draft PDF](/files/Investment_Network.pdf)]
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+---
 
+## Publications
 
+* **Natural Disasters and Early Child Development: Evidence from an Earthquake** (2026)  
+  *Economics of Education Review* (Accepted) — [[Draft PDF](/files/Disasters_Child_Development.pdf)]
+* **Daylight Saving Time and Automobile Accidents: Evidence from Chile** (2025)  
+  *Health Economics*, 34(5), 880–931. — [[DOI Link](https://doi.org/10.1002/hec.4936)]
+* **Self-Employment and Queues for Wage Work: Evidence from Chile** (2017)  
+  *Journal of International Development*, 29: 473–499. *with D. Contreras & E. Puentes* — [[DOI Link](https://doi.org/10.1002/jid.3074)]
 
+---
+
+## Work in Progress
+
+* **Care Across Generations: How Grandparenthood Affects Labor Supply in a Middle-Income Country**  
+  *with Damian Clarke, Valeria Logan, and Esteban Puentes*
+* **Life Cycle Effects of School Entry Cutoffs Policy**  
+  *with Carmen Quezada*
+* **Minimum Wage and Firm Outcomes**  
+  *with Elias Albagli, Sofia Bauducco, Juan Guerra-Salas, and David Kohn*
+* **Financial Constraints and the Absorption of Labor Supply Shocks**  
+  *with Ignacio Torres*
+* **A Deep Learning Model for Classifying Job Positions**  
+  *with Diego Donoso, Jesica Olivares, and Dagoberto Quevedo*
+* **Broadband Pricing and Quality Innovation in U.S. Urban Areas: Assessing the Impact of the COVID-19 Pandemic**  
+  *with Kenneth Flamm*
+
+---
+
+## Policy Reports (In Spanish)
+
+* **Efectos en el mercado laboral de cambios recientes en el salario mínimo** (IPOM Diciembre 2024) — *Banco Central de Chile*
+* **Impacto agregado y sectorial de la inversión: Evidencia desde los microdatos** (IPOM Septiembre 2024) — *Banco Central de Chile*
+* **Efectos heterogéneos a shocks a tasas de interés de largo plazo en firmas chilenas** (IPOM Diciembre 2023) — *Banco Central de Chile*
+* **Analyzing Flows in the Chilean Labor Market** (2019) — *Economía Chilena*, 22(2)
